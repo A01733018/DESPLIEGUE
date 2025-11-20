@@ -8,26 +8,26 @@ st.set_page_config(
 
 #Definir las páginas 
 home_page = st.Page(
-    "FORVIA_SF/Paginas/home.py",
+    "/blob/main/FORVIA_SF/Paginas/home.py",
     title="Home",
     icon=":material/home:"
 )
 
 projects_page = st.Page(
-    "FORVIA_SF/Paginas/project_analysis.py",
+    "/blob/main/FORVIA_SF/Paginas/project_analysis.py",
     title="Analisis de proyectos",
     icon=":material/analytics:"
 )
 
 percentage_page = st.Page(
-    "FORVIA_SF/Paginas/percentage_analysis.py",
+    "/blob/main/FORVIA_SF/Paginas/percentage_analysis.py",
     title="Analisis de porcentajes",
     icon=":material/table_chart_view:"
 
 )
 
 mapa_page = st.Page(
-    "FORVIA_SF/Paginas/Mapa.py",
+    "/blob/main/FORVIA_SF/Paginas/Mapa.py",
     title="Mapas",
     icon=":material/map_search:"
 
